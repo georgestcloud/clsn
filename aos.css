@@ -12,6 +12,22 @@
     }
 }
 
+h3 {
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 4px gold; /* Add gold shadow effect */
+}
+
+@media screen and (max-width: 800px) {
+    h3 {
+        font-size: 14px; /* Reduce font size for screens below 800px */
+        text-shadow: 2px 2px 4px red; /* Add red text shadow effect */
+    }
+}
+
 /* AOS animations */
 [data-aos] {
     opacity: 0;
