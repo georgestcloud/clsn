@@ -37,3 +37,34 @@ h3 {
 [data-aos].aos-animate {
     opacity: 1;
 }
+
+#container {
+    color: azure;
+    font-size: medium;
+    padding: 20px; /* Add padding to ensure text is not too close to the edges */
+    position: relative; /* Required for stacking context */
+    overflow: hidden; /* Hide overflow of blurred image */
+}
+
+#container::before {
+    font-size: medium;
+    content: ''; /* Create pseudo-element */
+    background-image: url('hero.webp'); /* Set background image */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    filter: blur(3px); /* Slightly blur the background image */
+    position: absolute; /* Position behind text */
+    top: 0;
+    left: 0;
+    right: 0;
+    color: beige;
+    bottom: 0;
+    z-index: -1; /* Ensure pseudo-element is behind text */
+}
+
+#container > * {
+    color: beige;
+    position: relative; /* Create stacking context for children */
+    z-index: 1; /* Ensure text appears above blurred image */
+    font-size: medium;
+}
