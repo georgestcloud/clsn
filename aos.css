@@ -68,3 +68,51 @@ h3 {
     z-index: 1; /* Ensure text appears above blurred image */
     font-size: medium;
 }
+
+
+
+.image-container {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.image-container p {
+    flex: 1;
+    margin-right: 20px; /* Adjust spacing between text and images */
+}
+
+.circle-images {
+    display: flex;
+}
+
+.circle-images img {
+    width: 100px; /* Adjust the size of the circular images */
+    height: 100px; /* Adjust the size of the circular images */
+    border-radius: 50%; /* Make the images circular */
+    margin-right: 10px; /* Adjust spacing between images */
+}
+
+
+
+
+.pill-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 50px; /* Use a large value to create a pill shape */
+    background-color: skyblue;
+    color: white;
+    text-decoration: none; /* Remove underline from link */
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(255, 0, 0, 0.5); /* Red shadow effect */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+    cursor: pointer;
+}
+
+.pill-button:hover {
+    background-color: gold; /* Hover effect of gold */
+    box-shadow: 0 6px 10px rgba(255, 0, 0, 0.7); /* Increased shadow on hover */
+}
+
