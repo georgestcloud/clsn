@@ -88,6 +88,14 @@ h3 {
     display: flex;
 }
 
+.nav {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background-color: blueviolet;
+    border: 2px solid whitesmoke;
+}
+
 .circle-images img {
     width: 100px; /* Adjust the size of the circular images */
     height: 100px; /* Adjust the size of the circular images */
