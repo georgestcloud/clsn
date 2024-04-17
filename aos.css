@@ -135,14 +135,16 @@ h3 {
 }
 
 
-
 .contact-list {
-    
+    color: white;
     font-size: 16px;
     margin-top: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-align: left; 
 }
 
-/* Style the list items */
 .contact-list ul {
     list-style: none;
     padding: 0;
