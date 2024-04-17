@@ -133,3 +133,26 @@ h3 {
         display: none; /* Hide the child image on screens below 800px */
     }
 }
+
+
+
+.contact-list {
+    
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+/* Style the list items */
+.contact-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-list li {
+    margin-bottom: 10px;
+}
+
+/* Style the icons */
+.contact-list i {
+    margin-right: 10px; 
+}
