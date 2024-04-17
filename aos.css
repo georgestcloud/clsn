@@ -116,3 +116,12 @@ h3 {
     box-shadow: 0 6px 10px rgba(255, 0, 0, 0.7); /* Increased shadow on hover */
 }
 
+.child-image {
+    display: inline-block; /* Ensure image is displayed as a block */
+}
+
+@media screen and (max-width: 800px) {
+    .child-image {
+        display: none; /* Hide the child image on screens below 800px */
+    }
+}
