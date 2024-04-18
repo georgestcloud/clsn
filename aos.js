@@ -20,3 +20,14 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+
+
+var map = L.map('map').setView([6.442610, 3.473200], 13); 
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors'
+}).addTo(map);
+
+// Add a marker at the specified location
+L.marker([6.442610, 3.473200]).addTo(map)
+  .bindPopup('Candlelight').openPopup();
