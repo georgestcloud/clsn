@@ -248,10 +248,9 @@ h3 {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('cf.webp');
+    background-image: src('cf.webp'); 
     background-size: cover;
     background-position: center;
-    filter: blur(1px); /* Adjust blur radius as needed */
-    opacity: 0.5; /* Adjust opacity as needed */
-    z-index: -1; /* Ensure the background image is behind other content */
-  }
+    filter: blur(1px); 
+    opacity: 0.5; 
+    z-index: -1;   }
