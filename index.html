@@ -25,6 +25,42 @@
 
   <link rel="stylesheet" type="text/css" href="styles.css">
   <link rel="stylesheet" href="aos.css">
+
+  <style>
+body {
+            background-color: white !important;
+        }
+        .nav-link {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 22px;
+            color: black;
+            text-shadow: 3px 3px 5px blueviolet;
+            transition: color 0.3s, text-shadow 0.3s;
+        }
+
+        .nav-link:hover {
+            color: gold;
+            text-shadow: 3px 3px 5px gold;
+        }
+        @media screen and (max-width: 800px) {
+            .nav-link {
+                font-size: 14px; /* Reduce font size for screens below 800px */
+            }
+        }
+
+        .carousel-item img {
+            height: 400px;
+            object-fit: cover;
+        }
+
+        .carousel:hover .carousel-control-prev,
+        .carousel:hover .carousel-control-next {
+            opacity: 1;
+            transition: opacity 3.5s;
+        }
+
+
+  </style>
 </head>
 
 <body>
@@ -187,7 +223,7 @@
 
 
 
-<div class="background" style="margin-top: 35px;">
+<div class="background" style="margin-top: 30px;">
 <footer class="background" style="font-style: bold;">
   
   <div class="w3-row-padding">
@@ -204,10 +240,9 @@
           <li style="padding-top: 25px;"><a href="https://candlelightspecialneeds.org" target="_blank">Home Page</a></li>
           <li  style="padding-top: 25px;"><a href="https://blog.candlelightspecialneeds.org" target="_blank">Blog</a></li>
           <li  style="padding-top: 25px;"><a href="https://linktr.ee/candlelightspecialneeds?fbclid=PAAaYwt51d4ZkcxYBoRqayViDUHcqJuJ5JRbEL78CVMXtas855vheVV1VagsQ" target="_blank">Social Media</a></li>
+    
 
-          
-        <li  style="padding-top: 25px;"> <a href="https://example.com/form" class="pill-button" target="_blank"><i class="fas fa-user-plus"></i> Sign up</a></li>  
-        </ul>
+        <li  style="padding-top: 25px;"> <a href="https://example.com/form" class="pill-button" target="_blank"><i class="fas fa-user-plus"></i> Sign up</a></li>  </ul>
       </div>
       
   
