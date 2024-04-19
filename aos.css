@@ -254,3 +254,23 @@ h3 {
     filter: blur(1px); 
     opacity: 0.5; 
     z-index: -1;   }
+
+
+
+
+
+
+.rect {
+    background-color: #3498db; 
+    color: black;
+    border: 3px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+  }
+  
+  .rect:hover {
+    background-color: gold; 
+  }
+  
