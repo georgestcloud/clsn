@@ -257,7 +257,7 @@ body {
  <a href="https://clsn-forms.vercel.app/" target="_blank"><button class="rect">Subscribe</button></a>
 
 
-<p id="demo" style="color: blue; font-size: 18px;"></p>
+<p id="ruby" style="color: blue; font-size: 18px;"></p>
       
     </div>
 
@@ -280,6 +280,19 @@ body {
   
 
 
+<script>
+    const d = new Date();
+    const options = {
+      weekday: 'long',
+      year: 'numeric', 
+      month: 'long', 
+      day: 'numeric',
+      hour: 'numeric',
+      minute: 'numeric',
+    };
+    
+    document.getElementById("ruby").innerHTML = d.toLocaleString('en-US', options);
+    </script>
 
   <script src="aos.js"></script>
   <script>
